@@ -1,3 +1,5 @@
+// Code qui illustre un combat entre un nous et un robot en tout par tour
+
 import 'classes.dart';
 import 'dart:math';
 import 'dart:io';
@@ -44,8 +46,9 @@ void main(List<String> args) {
     String? temp  = stdin.readLineSync();
     print(temp);
 
+
     // On indique le coup du joueur
-    print("${j1.pseudo} attaque le bot avec une force de $forceJoueur");
+    print("${j1.pseudo} lance les dés et obtient un $forceJoueur, il attaque le bot avec une force de $forceJoueur");
 
 
     // On inflige les dégâts du Joueur au bot
